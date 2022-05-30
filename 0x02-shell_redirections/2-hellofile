@@ -1,2 +1,2 @@
 #!/bin/bash
-ls /etc/passwd
+sudo less /etc/passwd
