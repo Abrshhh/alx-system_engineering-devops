@@ -5,5 +5,5 @@ j="To infinity and beyond"
 while [ $i -eq 0 ];
 do
 	echo $j
-	sleep 2
+	bash -c "sleep 2"
 done
