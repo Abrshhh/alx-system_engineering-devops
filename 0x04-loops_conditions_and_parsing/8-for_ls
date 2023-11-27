@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#displays the content of the current directory
+#+In a list format
+#+Where only the part of the name after the first dash is displayed
+for file in 0x04-loops_conditions_and_parsing ;
+do
+	if [[ $file -eq "*-*" ]];
+	then
+		echo "${file#*-}"
+  fi
+done
